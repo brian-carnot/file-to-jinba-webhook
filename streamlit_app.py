@@ -4,7 +4,7 @@ import base64
 import json
 
 # App title
-st.title("📁 Jinbaflow: File to Webhook Trigger")
+st.title("📁 Jinbaflow: File to Webhook")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a file to upload", type=["csv", "txt", "json", "xlsx"])
